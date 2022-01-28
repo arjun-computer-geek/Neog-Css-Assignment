@@ -74,3 +74,28 @@ header h2{
 .container p{
     margin: 10px 0;
 }
+
+@media only screen and (max-width: 600px){
+    header{
+        padding: 10px;
+        height: 4rem;
+    }
+    .hamburger i{
+        font-size: 30px;
+     }
+     header h2{
+        margin-left: 20px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .sidebar{
+        padding: 2px;
+        width: 60%;
+    }
+    .sidebar .sidebar-links{
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+}
